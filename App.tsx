@@ -3,7 +3,7 @@ import {Image, StyleSheet, Text, ScrollView, SafeAreaView} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1,=-
     padding: 20,
     alignItems: 'center',
   },
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const DisplayImages = () => {
+const App = () => {
   const base64Image =
     'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg==';
 
@@ -40,7 +40,6 @@ const DisplayImages = () => {
           style={styles.image}
           source={require('./assets/Image/logo-unklab.png')}
         />
-
         {/* 2. Network Image */}
         <Text style={styles.label}>2. Network Image (React Native Logo)</Text>
         <Image
@@ -58,4 +57,4 @@ const DisplayImages = () => {
   );
 };
 
-export default DisplayImages;
+export default App;
