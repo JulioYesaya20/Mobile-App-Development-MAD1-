@@ -1,4 +1,4 @@
-import {StyleSheet, View, Image} from 'react-native';
+a
 import React from 'react';
 
 const Flexbox = () => {
